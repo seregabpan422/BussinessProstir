@@ -1,0 +1,111 @@
+.item-info {
+    width:80%;
+    margin-left:10%;
+    position: relative;
+}
+
+.item-img{
+    width:450px;
+    height:450px;
+}
+
+.item-edit{
+    width:100px;
+    height:20px;
+    padding: 10 10 10 10;
+    font-size: 21px;
+    font-weight: bold;
+    position: absolute;
+    margin-top:100px;
+    margin-left:700px;
+    background-color: inherit;
+    border:0px solid black;
+}
+
+#item-delete{
+    margin-left:-10px;
+    margin-top:300px;
+
+}
+
+.item-count{
+    border:0px solid black;
+    background-color: inherit;
+    font-size:36px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width:60%;
+    height: 36px;
+    border-radius: 50%;
+    text-align: center;
+    pointer-events: none;
+    align-items: center;
+    pointer-events: none;
+}
+input:focus {
+    outline: none; /* Видаляє обводку браузера */
+    border: none; /* Якщо у вас є обводка, її теж можна прибрати */
+}
+.count-items {
+    width:400px;
+    display: flex;
+    justify-content: space-between;
+    margin-left:10px;
+    margin-top:70px;
+}
+
+.count-btn {
+    width:50px;
+    height:15px;
+    border-radius: 50%;
+    box-shadow: 0 0 2px black;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom:30px;
+    transition: background-color 0.3s ease-in-out;
+    font-weight: bold;
+    font-size:35px;
+}
+
+.count-btn:active {
+    background-color: orange;
+    transition: background-color 0.03s ease-in-out;
+}
+
+.sum-count{
+    margin-top:100px;
+}
+
+.summary{
+    margin-top:20px;
+    background-color: inherit;
+    border:0px solid black;
+    font-size:30px;
+
+    position: absolute;
+    width:26%;
+
+    text-align: center;
+}
+.summary::before{
+    content: 'UAH';
+    display:block;
+    width:100px;
+    height:100px;
+}
+
+#order {
+    width:200px;
+    position: absolute;
+    margin-top:130px;
+    margin-left:100px;
+    padding-top:15px;
+    padding-bottom: 15px;
+/*     background-color: orange; */
+    border:0px solid black;
+    box-shadow: 0 0 3px black;
+}
+
+.item{
+    display:flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,58 @@
+.information {
+    width:100%;
+
+}
+
+.information-container{
+    width:80%;
+    margin-left:10%;
+    margin-top:5%;
+}
+
+.information-content{
+    text-align: center;
+    font-size:20px;
+}
+
+.information-title{
+    font-size:24px;
+    font-weight: bold;
+}
+
+.information-text{
+    margin-top:50px;
+    font-size:22px;
+    text-align: start;
+    width:100%;
+}
+
+.about-img{
+    width:80%;
+    margin-left:10%;
+    
+}
+
+.about-content {
+    display:flex;
+    justify-content: space-between;
+    padding-bottom:100px;
+}
+
+.about-image{
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1);
+}
+
+
+.about-image:hover{
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.02);
+}
+
+.map {
+    width:80%;
+    height:700px;
+    margin-left:10%;
+    padding-bottom:100px;
+
+}
